@@ -9,15 +9,45 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+       
+            VStack {
+                
+            // Picture of Logo
+             Image("logo")
+            .resizable()
+            .scaledToFit()
+            .frame(width:300, height:300 )
+                
+                
+                    // sign up button
+                    Text("        Sign Up         ")
+                        .bold()
+                        .font(.largeTitle)
+                        . padding(4)
+                        .foregroundColor(.white)
+                        .background(.blue)
+                        .cornerRadius(100)
+                        .shadow(color: .gray,radius: 10, x:0, y: 10)
+                        .padding()
+                    
+                    
+                    // login button
+                    Text("        Login in         ")
+                        .bold()
+                        .font(.largeTitle)
+                        . padding(4)
+                        .foregroundColor(.yellow)
+                        .background(.white)
+                        .cornerRadius(100)
+                        .shadow(color: .gray,radius: 10, x:0, y: 10)
+            
+                }
+                
+            }
+       
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
