@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A76CD9162AACAE2200F647CA /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76CD9152AACAE2200F647CA /* LoginPage.swift */; };
+		A76CD9182AACAEF100F647CA /* LoginPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76CD9172AACAEF100F647CA /* LoginPage2.swift */; };
+		A76CD91A2AACB56B00F647CA /* SignupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76CD9192AACB56B00F647CA /* SignupPage.swift */; };
+		A76CD91C2AAD8DFC00F647CA /* SignupPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76CD91B2AAD8DFC00F647CA /* SignupPage2.swift */; };
+		A76CD91E2AAD8F7F00F647CA /* LoadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76CD91D2AAD8F7F00F647CA /* LoadingPage.swift */; };
+		A76CD9202AAD930400F647CA /* SelectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76CD91F2AAD930400F647CA /* SelectionPage.swift */; };
 		A78D7CCC2A91A8810017E124 /* School_HousesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78D7CCB2A91A8810017E124 /* School_HousesApp.swift */; };
 		A78D7CCE2A91A8810017E124 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78D7CCD2A91A8810017E124 /* ContentView.swift */; };
 		A78D7CD02A91A8840017E124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78D7CCF2A91A8840017E124 /* Assets.xcassets */; };
@@ -16,6 +21,11 @@
 
 /* Begin PBXFileReference section */
 		A76CD9152AACAE2200F647CA /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		A76CD9172AACAEF100F647CA /* LoginPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage2.swift; sourceTree = "<group>"; };
+		A76CD9192AACB56B00F647CA /* SignupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPage.swift; sourceTree = "<group>"; };
+		A76CD91B2AAD8DFC00F647CA /* SignupPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPage2.swift; sourceTree = "<group>"; };
+		A76CD91D2AAD8F7F00F647CA /* LoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPage.swift; sourceTree = "<group>"; };
+		A76CD91F2AAD930400F647CA /* SelectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionPage.swift; sourceTree = "<group>"; };
 		A78D7CC82A91A8810017E124 /* School Houses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School Houses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78D7CCB2A91A8810017E124 /* School_HousesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_HousesApp.swift; sourceTree = "<group>"; };
 		A78D7CCD2A91A8810017E124 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +66,11 @@
 				A78D7CCB2A91A8810017E124 /* School_HousesApp.swift */,
 				A78D7CCD2A91A8810017E124 /* ContentView.swift */,
 				A76CD9152AACAE2200F647CA /* LoginPage.swift */,
+				A76CD9172AACAEF100F647CA /* LoginPage2.swift */,
+				A76CD9192AACB56B00F647CA /* SignupPage.swift */,
+				A76CD91B2AAD8DFC00F647CA /* SignupPage2.swift */,
+				A76CD91D2AAD8F7F00F647CA /* LoadingPage.swift */,
+				A76CD91F2AAD930400F647CA /* SelectionPage.swift */,
 				A78D7CCF2A91A8840017E124 /* Assets.xcassets */,
 				A78D7CD12A91A8840017E124 /* Preview Content */,
 			);
@@ -141,8 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A78D7CCE2A91A8810017E124 /* ContentView.swift in Sources */,
+				A76CD9202AAD930400F647CA /* SelectionPage.swift in Sources */,
+				A76CD91E2AAD8F7F00F647CA /* LoadingPage.swift in Sources */,
 				A76CD9162AACAE2200F647CA /* LoginPage.swift in Sources */,
 				A78D7CCC2A91A8810017E124 /* School_HousesApp.swift in Sources */,
+				A76CD91C2AAD8DFC00F647CA /* SignupPage2.swift in Sources */,
+				A76CD9182AACAEF100F647CA /* LoginPage2.swift in Sources */,
+				A76CD91A2AACB56B00F647CA /* SignupPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

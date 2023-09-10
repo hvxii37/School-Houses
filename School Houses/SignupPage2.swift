@@ -1,23 +1,23 @@
 //
-//  LoginPage.swift
+//  SignupPage2.swift
 //  School Houses
 //
-//  Created by Haneen Al hammoudi on 09/09/2023.
+//  Created by Haneen Al hammoudi on 10/09/2023.
 //
 
 import SwiftUI
 
-struct LoginPage: View {
-    @State var email: String = ""
-    @State var password: String = ""
+struct SignupPage2: View {
+    @State var school: String = ""
+    @State var grade: String = ""
     var body: some View {
         ZStack{
             Color.orange.opacity(0.1)
                 .edgesIgnoringSafeArea(.all)
             VStack{
                 
-                Text("Log in")
-                    . font(.title)
+                Text("Create your account")
+                    . font(.title2)
                     .padding(.vertical)
                     .bold()
                     .foregroundColor(Color.gray)
@@ -28,26 +28,20 @@ struct LoginPage: View {
                 
                 VStack {
                     
-                    TextField("Email", text: $email)
+                    TextField("School", text: $school)
                         .padding()
                         .background(.white)
                         .cornerRadius(20)
                         .padding(.horizontal)
                         .offset(x:0, y: 80)
                     
-                    
-                    SecureField("Password",text: $password)
+                    TextField("Grade",text: $grade)
                         .padding()
                         .background(.white)
                         .cornerRadius(20)
                         .padding(.horizontal)
                         .offset(x:0, y: 160)
-                    Button{
-                        
-                    } label:{
-                        Text("forgot your password ?")
-                        .offset(x:0, y: 200)
-                    }
+                    
                     
                     
                 }
@@ -78,10 +72,10 @@ struct LoginPage: View {
             Button{
                 
             } label:{
-                Text("already have an account ?")
+                Text("already a member ?")
                 .offset(x:0, y: 350)
                 .foregroundColor(.gray)
-                Text("Sign up")
+                Text("Log in ")
                 .offset(x:0, y: 350)
                 .foregroundColor(.yellow)
             }
@@ -91,12 +85,8 @@ struct LoginPage: View {
     }
     
     }
-
-
-struct LoginPage_Previews: PreviewProvider {
+struct SignupPage2_Previews: PreviewProvider {
     static var previews: some View {
-        LoginPage()
+        SignupPage2()
     }
 }
-
-

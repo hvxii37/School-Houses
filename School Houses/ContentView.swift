@@ -19,7 +19,7 @@ struct ContentView: View {
 
             VStack {
                 // Picture of Logo
-                Image("logo")
+                Image("Logo ")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 800, height: 300)

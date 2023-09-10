@@ -1,5 +1,5 @@
 //
-//  LoginPage.swift
+//  LoginPage2.swift
 //  School Houses
 //
 //  Created by Haneen Al hammoudi on 09/09/2023.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct LoginPage: View {
-    @State var email: String = ""
-    @State var password: String = ""
+struct LoginPage2: View {
+    @State var school: String = ""
+    @State var grade: String = ""
     var body: some View {
         ZStack{
             Color.orange.opacity(0.1)
@@ -28,26 +28,20 @@ struct LoginPage: View {
                 
                 VStack {
                     
-                    TextField("Email", text: $email)
+                    TextField("School", text: $school)
                         .padding()
                         .background(.white)
                         .cornerRadius(20)
                         .padding(.horizontal)
                         .offset(x:0, y: 80)
                     
-                    
-                    SecureField("Password",text: $password)
+                    TextField("Grade",text: $grade)
                         .padding()
                         .background(.white)
                         .cornerRadius(20)
                         .padding(.horizontal)
                         .offset(x:0, y: 160)
-                    Button{
-                        
-                    } label:{
-                        Text("forgot your password ?")
-                        .offset(x:0, y: 200)
-                    }
+                    
                     
                     
                 }
@@ -92,11 +86,8 @@ struct LoginPage: View {
     
     }
 
-
-struct LoginPage_Previews: PreviewProvider {
+struct LoginPage2_Previews: PreviewProvider {
     static var previews: some View {
-        LoginPage()
+        LoginPage2()
     }
 }
-
-
