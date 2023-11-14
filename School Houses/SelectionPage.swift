@@ -92,7 +92,7 @@ struct SelectionPage: View {
                 }
                 .shadow(radius: 10)
                 .background(
-                    BubbleButton(x1: -40, y1: -10, x2: 50, y2: 10,
+                    BubbleButton(x1: -50, y1: -20, x2: 50, y2: 20,
                                  color1: [.yellow], color2: [.yellow])
                 )
             }
